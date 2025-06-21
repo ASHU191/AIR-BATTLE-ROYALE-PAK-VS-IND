@@ -8,11 +8,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Plane, Clock, Zap, Award, Volume2, Radar, Target } from "lucide-react"
 
 const SAMPLE_TEXTS = [
-  "The sky is the limit when courage meets precision. Every pilot knows that victory belongs to those who dare to fly beyond their fears and push the boundaries of what seems possible in aerial combat.",
-  "In the realm of aerial combat, split-second decisions determine the outcome. The roar of engines, the rush of wind, and the precision of movement create a symphony of controlled chaos above the clouds.",
-  "High above the clouds, where eagles soar and legends are born, the dance of aerial supremacy unfolds with grace, power, and unwavering determination to protect the skies from enemy forces.",
-  "Through turbulent skies and challenging weather, the spirit of aviation continues to inspire generations of pilots who dream of touching the heavens with wings of steel and hearts of pure courage.",
-  "When the alarm sounds and scramble orders are given, every second counts as pilots race to their aircraft, knowing that the fate of the mission depends on their skill, speed, and determination.",
+  "The sky is the limit when courage meets precision.",
+  "In the realm of aerial combat, split-second decisions determine the outcome.",
+  "High above the clouds, where eagles soar and legends are born.",
+  "Through turbulent skies and challenging weather.",
+  "When the alarm sounds and scramble orders are given, every second counts.",
 ]
 
 export default function Component() {
@@ -287,6 +287,14 @@ export default function Component() {
           </Button>
         </CardContent>
       </Card>
+      {/* Footer */}
+      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-r from-slate-900/95 via-gray-800/95 to-slate-900/95 backdrop-blur-sm border-t-2 border-cyan-400/50 py-3">
+        <div className="text-center">
+          <p className="text-cyan-300 text-sm font-semibold">
+            Made with ❤️ by <span className="text-yellow-400 font-bold">Arsalan Aftab</span>
+          </p>
+        </div>
+      </div>
     </div>
   )
 
@@ -375,6 +383,14 @@ export default function Component() {
           </div>
         </CardContent>
       </Card>
+      {/* Footer */}
+      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-r from-slate-900/95 via-gray-800/95 to-slate-900/95 backdrop-blur-sm border-t-2 border-cyan-400/50 py-3">
+        <div className="text-center">
+          <p className="text-cyan-300 text-sm font-semibold">
+            Made with ❤️ by <span className="text-yellow-400 font-bold">Arsalan Aftab</span>
+          </p>
+        </div>
+      </div>
     </div>
   )
 
@@ -596,6 +612,14 @@ export default function Component() {
             </CardContent>
           </Card>
         </div>
+        {/* Footer */}
+        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-r from-slate-900/95 via-gray-800/95 to-slate-900/95 backdrop-blur-sm border-t-2 border-cyan-400/50 py-3">
+          <div className="text-center">
+            <p className="text-cyan-300 text-sm font-semibold">
+              Made with ❤️ by <span className="text-yellow-400 font-bold">Arsalan Aftab</span>
+            </p>
+          </div>
+        </div>
       </div>
     )
   }
@@ -704,6 +728,14 @@ export default function Component() {
           </div>
         </CardContent>
       </Card>
+      {/* Footer */}
+      <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-r from-slate-900/95 via-gray-800/95 to-slate-900/95 backdrop-blur-sm border-t-2 border-cyan-400/50 py-3">
+        <div className="text-center">
+          <p className="text-cyan-300 text-sm font-semibold">
+            Made with ❤️ by <span className="text-yellow-400 font-bold">Arsalan Aftab</span>
+          </p>
+        </div>
+      </div>
     </div>
   )
 
