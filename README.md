@@ -5,7 +5,7 @@ A hyper-realistic, cinematic typing game built with **Next.js**, **TypeScript**,
 ![Game Preview](/asset/c1.png)  
 ![Game Preview](/asset/c2.png)  
 ![Game Preview](/asset/c3.png)  
-![Game Preview](/asset/c4.png)
+![Game Preview](/asset/c4.png) 
 
 ---
 
