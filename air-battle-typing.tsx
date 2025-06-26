@@ -13,7 +13,7 @@ const SAMPLE_TEXTS = [
   "High above the clouds, where eagles soar and legends are born.",
   "Through turbulent skies and challenging weather.",
   "When the alarm sounds and scramble orders are given, every second counts.",
-]
+]  
 
 export default function Component() {
   const [gameState, setGameState] = useState<"start" | "rules" | "playing" | "win" | "lose">("start")
