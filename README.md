@@ -1,4 +1,4 @@
-# ✈️ Air Battle Typing 
+# ✈️ Air Battle Typing   
  
 A hyper-realistic, cinematic typing game built with **Next.js**, **TypeScript**, and **Tailwind CSS** — experience the thrill of aerial combat while sharpening your typing skills!
 
